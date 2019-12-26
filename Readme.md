@@ -1,7 +1,7 @@
 # Личный проект «TaskForce»
 
 * Студент: [Ирина Логвинович](https://up.htmlacademy.ru/yii/1/user/146479).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Медведев](https://htmlacademy.ru/profile/id1281715).
 
 ---
 
