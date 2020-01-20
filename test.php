@@ -5,7 +5,7 @@ function loader($class)
     require_once 'classes/' . $class . '.php';
 }
 
-spl_autoload_register();
+spl_autoload_register('loader');
 
 $task = new Task(1, 1);
 
