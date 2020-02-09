@@ -1,15 +1,12 @@
 <?php
 
-function loader($class) 
-{
-    require_once 'classes/' . $class . '.php';
-}
+require_once 'vendor/autoload.php';
 
-spl_autoload_register('loader');
+use Main\Task;
 
 $task = new Task(1, 1);
 
-assert($task->getNextStatus('discard') == Task::STATUS_DISCARD, 'discard');
+var_dump(assert($task->getNextStatus('discard') == Task::STATUS_DISCARD, 'discard'));
 assert($task->getNextStatus('respond') == Task::STATUS_IN_WORK, 'in work');
 assert($task->getNextStatus('done') == Task::STATUS_DONE, 'done');
 assert($task->getNextStatus('refuse') == Task::STATUS_FAIL, 'fail');
