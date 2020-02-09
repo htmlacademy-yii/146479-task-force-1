@@ -1,4 +1,6 @@
 <?php
+    namespace Main;
+
     class Task
     {
         const STATUS_NEW = 'new'; 

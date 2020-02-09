@@ -1,0 +1,9 @@
+{
+    "name": "task-forge-1",
+    "description": "php 2 project",
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    }
+}
